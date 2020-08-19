@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="./Portfolio Home Page/Styles/contact.css">
+        <!--<script defer src="./lightscript.js"></script>-->
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"><!--Montserrat-->
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet"><!--Oxygen-->
+        <link rel="stylesheet" href="https://use.typekit.net/qvt6wvl.css"> <!--Jochmi-->
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    
+        <!-- icons -->
+        <script src="https://kit.fontawesome.com/fc54704ad6.js" crossorigin="anonymous"></script>
+
+        <title>Taqi Ahmed Portfolio</title>
+    </head>
+    <body>
+        <!--Header Start-->
+        <header id = "site-header">
+            <nav class="navbar navbar-dark navbar-expand-sm ">
+            <a class="navbar-brand logo-size" href="./home.html">Taqi Ahmed</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="menu collapse navbar-collapse data-toggle=collapse " id="Navbar">
+                <ul class="navbar-nav ml-auto menu-align">
+                        <li class="nav-item" ><a class="nav-link" href="./home.html"> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./home.html#about-page">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./home.html#projects">Projects</a></li>
+                        <li class="nav-item "><a class="nav-link" href="./contact.html">Booking</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        </header>
+        <!--Header END-->
+
+        <section class="home">
+            <div class="row row-content">
+               <div class="col-12 align-items-center">
+                  <h1>Contact Taqi</h1>
+                  <h5>GET IN TOUCH!</h5>
+                  <hr style="width: 80%">
+               </div>
+                <div class="col-12">
+                    <form>
+                        <div class="form-group row">
+                            <label for="firstname" class="col-md-12 col-form-label">Full Name</label>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control bg-clr" id="firstname" name="firstname" >
+                            </div>
+                        </div>
+    
+                        <div class="form-group row">
+                            <label for="telnum" class="col-12 col-form-label">Phone Number</label>
+                            <div class="col-12">
+                                <input type="tel" class="form-control bg-clr" id="telnum" name="telnum">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="emailid" class="col-md-12 col-form-label">Email</label>
+                            <div class="col-md-12">
+                                <input type="email" class="form-control bg-clr" id="emailid" name="emailid">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group row">
+                            <label for="feedback" class="col-md-12 col-form-label">Message</label>
+                            <div class="col-md-12">
+                                <textarea class="form-control bg-clr" id="feedback" name="feedback" rows="12"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-12 btn-align">
+                                <button type="submit" class="but btn btn-primary">SUBMIT</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+           </div> 
+        </section>
+    
+        <footer class="footer" id="sticky-footer">
+            <div class="container">
+              <div class="row">             
+                <div class="left-side col-12 col-md-9 order-xs-first">
+                    <h5>Let's be creative together</h5>
+                    <address>
+                      &nbsp;<i class="fa fa-phone fa-md"></i> : <span>+971 555 408 823</span><br> &nbsp;<i class="fa fa-envelope"></i> <a href="mailto:taqiahmed123@gmail.com"> : <span>taqiahmed@gmail.com</span></a>
+                   </address>
+                   <div class="justify-content-center socials col-xs-12">             
+                    <a class="btn btn-inline btn-social-icon my-icon" style="color:white" href="http://www.linkedin.com/in/"><i class="fab fa-linkedin"></i></a>
+                    <a class="btn btn-inline btn-social-icon my-icon" style="color:white" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-inline btn-social-icon my-icon" style="color:white" href="https://www.youtube.com/channel/UC66krYx1rtGJ0lQUgfbzxhA"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-inline btn-social-icon my-icon" style="color:white" href="https://www.instagram.com/taqi_ahmed97/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>             
+                </div>
+                <div class="col-12 col-md-3 align-self-right">
+                  <div class=" Booking-Font">
+                      <a class="lft-aligned" href="./contact.html">MAKE A</a>
+                      <a class="rght-aligned" href="./contact.html">BOOKING</a>
+                  </div>
+              </div>
+              </div>
+            </div>
+        </footer>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="videos.js"></script>
+
+    </body>
+</html>
